@@ -550,7 +550,7 @@ fabric.properties
 *.lst
 
 # Arduino-generated sketch build folders
-.ino.
+*.ino.*
 build/
 .pio/
 .pioenvs/
