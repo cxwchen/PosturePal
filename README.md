@@ -6,19 +6,19 @@ PosturePal is a personal system designed to help improve posture throughout the 
 
 
 ## Current Features
-- **Pushover Reminders**: Sends notifications to your phone every 5 minutes using the [Pushover API](https://pushover.net/api) to remind you to check and correct your posture.
+**Pushover Reminders**: Sends notifications to your phone every 5 minutes using the [Pushover API](https://pushover.net/api) to remind you to check and correct your posture.
 > **Note**: This interval-based notification system is a temporary solution. Once the hardware arrives, EMG data is collected and a machine learning model is trained, notifications will only be sent when poor posture is detected in real time using the sensor data and classification model.
 
 
 ## Planned Features
 ### 1. EMG-Based Posture Detection
-- Hardware:
-    - EMG sensor (MyoWare 2.0)
-    - Microcontroller: Arduino Nano 33 BLE Sense Rev2
-- Functionality:
-    - Collect EMG data from target muscles (lower back)
-    - Extract features
-    - Perform SVM classification (on-device or on-phone) to detect bad posture
+**Hardware**:
+- EMG sensor (MyoWare 2.0)
+- Microcontroller: Arduino Nano 33 BLE Sense Rev2
+**Functionality**:
+- Collect EMG data from target muscles (lower back)
+- Extract features
+- Perform SVM classification (on-device or on-phone) to detect bad posture
 ### 2. BLE Integration
 The Arduino Nano 33 BLE will transmit data to your phone or computer using Bluetooth Low Energy (BLE) for real-time feedback
 ### 3. Laptop Overlay App
@@ -29,9 +29,9 @@ Additionally, I want to create an application for my laptop. This application ha
 
 ## Roadmap
 ### Phase 1: Basic Reminders (In Progress)
-[x] Set up Pushover integration for posture reminders on phone
-[x] Send notifications every 5 minutes
-[ ] Create lightweight GUI for laptop-based posture prompts
+-   [x] Set up Pushover integration for posture reminders on phone
+-   [x] Send notifications every 5 minutes
+-   [ ] Create lightweight GUI for laptop-based posture prompts
 
 ### Phase 2: Hardware Integration (Pending)
 [ ] Acquire EMG Sensor (MyoWare 2.0)
