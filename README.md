@@ -15,6 +15,7 @@ PosturePal is a personal system designed to help improve posture throughout the 
 **Hardware**:
 - EMG sensor (MyoWare 2.0)
 - Microcontroller: Arduino Nano 33 BLE Sense Rev2
+
 **Functionality**:
 - Collect EMG data from target muscles (lower back)
 - Extract features
@@ -34,16 +35,16 @@ Additionally, I want to create an application for my laptop. This application ha
 -   [ ] Create lightweight GUI for laptop-based posture prompts
 
 ### Phase 2: Hardware Integration (Pending)
-[ ] Acquire EMG Sensor (MyoWare 2.0)
-[ ] Acquire Arduino Nano 33 BLE Sense Rev2
-[ ] Integrate EMG sensor with the Arduino
+-   [ ] Acquire EMG Sensor (MyoWare 2.0)
+-   [ ] Acquire Arduino Nano 33 BLE Sense Rev2
+-   [ ] Integrate EMG sensor with the Arduino
 
 ### Phase 3: Data Acquisition and Machine Learning (Pending)
-[ ] Collect EMG data for good vs bad posture using serial communication
-[ ] Extract features and train SVM classifier
-[ ] Deploy model to device (or run classification on phone/laptop)
+-   [ ] Collect EMG data for good vs bad posture using serial communication
+-   [ ] Extract features and train SVM classifier
+-   [ ] Deploy model to device (or run classification on phone/laptop)
 
 ### Phase 4: Real-Time Feedback (Pending)
-- Replace time-based notifications with ML-triggered alerts
-- Enable real-time classification and notification via Pushover
-- Test and optimize latency and responsiveness
+-   [ ] Replace time-based notifications with ML-triggered alerts
+-   [ ] Enable real-time classification and notification via Pushover
+-   [ ] Test and optimize latency and responsiveness
