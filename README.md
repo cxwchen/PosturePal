@@ -29,10 +29,10 @@ A desktop app that overlays posture warnings on your screen when bad posture is 
 Additionally, I want to create an application for my laptop. This application has an overlay such that if my posture is bad a message will be printed on my screen to remind me to fix my posture.
 
 ## Roadmap
-### Phase 1: Basic Reminders (In Progress)
+### Phase 1: Basic Reminders (Completed)
 -   [x] Set up Pushover integration for posture reminders on phone
 -   [x] Send notifications every 5 minutes
--   [ ] Create lightweight GUI for laptop-based posture prompts
+-   [x] Create lightweight GUI for laptop-based posture prompts
 
 ### Phase 2: Hardware Integration (Pending)
 -   [ ] Acquire EMG Sensor (MyoWare 2.0)
