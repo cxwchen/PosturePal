@@ -1,0 +1,3 @@
+from notification_sender import send_posture_alert
+
+send_posture_alert()
